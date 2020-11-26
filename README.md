@@ -1,4 +1,4 @@
-# seletor_subsea
+# Seletor de conceito para arranjo submarino
 Algoritmo de seleção rápida para sistemas de distribuição em arranjo submarino.
 O algoritmo testa o conceito de poços satélite, o uso de manifolds de serviço e gas-lift com compartilhamento de umbilical, o uso de manifolds de injeção com compartilhamento de umbilical e o uso de unidades de distribuição somente de umbilical.
 Também é otimizada a posição da plataforma, a posição de cada manifold selecionado e a quais poços estes estão alocados.
@@ -74,3 +74,13 @@ Cada posição do vetor corresponde a um poço, e seu valor corresponde a qual m
 A função objetivo, de minimização, é o custo total do arranjo.
 Os demais parâmetros do algoritmo evolutivo são:
 - População de 120 indivíduos
+- Cruzamento uniforme (*cxUniform*) com probabilidade independente de 30% e taxa de cruzamento 60%
+- Mutação uniforme de números inteiros (*mutUniformInt*) com probabilidade independente de 15% e taxa de mutação de 30%
+- Seleção por torneio (*selTournament*) entre 4 indivíduos
+- 40 gerações
+
+## Saída do algoritmo
+
+O algoritmo dá como resposta o arranjo, como vetor de números inteiros, que teve menor custo total na evolução.
+Também é gerado um *Dataframe* com as posições da plataforma e de todos os sistemas de distribuição utilizados no arranjo selecionado, no mesmo sistema de coordenadas dos poços.
+Otimizações posteriores podem ser realizadas utilizando algoritmos especializados.
