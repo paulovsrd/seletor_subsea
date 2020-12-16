@@ -1,4 +1,4 @@
-# Seletor de conceito para arranjo submarino
+# Seletor de arranjo submarino por Algoritmo Evolutivo
 Algoritmo de seleção rápida para sistemas de distribuição em arranjo submarino.
 O algoritmo testa o conceito de poços satélite, o uso de manifolds de serviço e gas-lift com compartilhamento de umbilical, o uso de manifolds de injeção com compartilhamento de umbilical e o uso de unidades de distribuição somente de umbilical.
 Também é otimizada a posição da plataforma, a posição de cada manifold selecionado e a quais poços estes estão alocados.
