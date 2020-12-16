@@ -1,4 +1,4 @@
-# Título do Trabalho
+# Seletor de arranjo submarino por Algoritmo Evolutivo
 
 #### Aluno: [Paulo Vinicius Soares Ramalho Domingos](https://github.com/paulovsrd)
 #### Orientador(/a/es/as): [Ana Carolina Alves Abreu](https://github.com/acarolina1612)
